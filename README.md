@@ -20,3 +20,6 @@ Setup GitLab as a self-hosted server
 * `docker compose down`
 * rm -rf $GITLAB_HOME
 * make a mental note to increment the value of your hostname
+
+## Miscellaneous
+* if you forget to incremement the host in your DNS, you can do that and then run `docker exec -it gitlab gitlab-ctl reconfigure`
