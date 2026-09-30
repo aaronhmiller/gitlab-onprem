@@ -16,6 +16,9 @@ Setup GitLab as a self-hosted server
 * Generate a Personal Access Token (PAT) within GitLab
 * Onboard using the automated method
 
+## Tested manual onboarding
+needs `read_api` `read_user` and `api` for the GitLab Personal Access Token
+
 ## Teardown
 * `docker compose down`
 * rm -rf $GITLAB_HOME
